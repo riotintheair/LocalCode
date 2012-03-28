@@ -1,4 +1,4 @@
 #two perl one-liners for removing default shp2kml map markers
 
 perl -pe 's/http\:\/\/maps\.google\.com\/mapfiles\/kml\/pal3\/icon63\.png//g' county_unemp.kml > county_unemp_fix.kml
-perl -pe 's/root\:\/\/icons\/palette\-5\.png//g' county_unemp_fix.kml > county_unemp_fix_2.kml  
+perl -pe 's/root\:\/\/icons\/palette\-5\.png//g' county_unemp_fix.kml > county_unemp_fix_2.kml 
